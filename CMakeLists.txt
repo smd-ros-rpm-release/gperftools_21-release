@@ -15,5 +15,7 @@ ExternalProject_Add(gperftools
 catkin_package(
   )
 
-install(
-  )
+ExternalProject_Get_Property(gperftools BINARY_DIR)
+add_custom_target(gperftools-install gperftools
+  COMMAND make -C ${BINARY_DIR} install)
+add_dependencies(install gperftools-install)
