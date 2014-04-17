@@ -7,7 +7,7 @@ include(ExternalProject)
 
 ExternalProject_Add(gperftools
   SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}
-  CONFIGURE_COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/configure --prefix=${CMAKE_INSTALL_PREFIX}
+  CONFIGURE_COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/configure --prefix=${CMAKE_INSTALL_PREFIX} && touch ${CMAKE_CURRENT_SOURCE_DIR}/aclocal.m4 ${CMAKE_CURRENT_SOURCE_DIR}/Makefile.in
   BUILD_COMMAND ${MAKE}
   INSTALL_COMMAND ${MAKE} install
   )
