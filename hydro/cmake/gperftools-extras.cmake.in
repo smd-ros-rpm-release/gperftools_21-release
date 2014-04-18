@@ -1,0 +1,6 @@
+
+set(GPERFTOOLS_LIBRARY_DIR "@BINARY_DIR@/.libs")
+set(GPERFTOOLS_TCMALLOC "-L@BINARY_DIR@/.libs -ltcmalloc")
+set(GPERFTOOLS_PROFILER "-L@BINARY_DIR@/.libs -lprofiler")
+set(GPERFTOOLS_TCMALLOC_AND_PROFILER "-L@BINARY_DIR@/.libs -ltcmalloc_and_profiler")
+set(GPERFTOOLS_LIBRARIES "-L@BINARY_DIR@/.libs -ltcmalloc_and_profiler")
