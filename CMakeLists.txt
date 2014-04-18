@@ -16,6 +16,4 @@ catkin_package(
   )
 
 ExternalProject_Get_Property(gperftools BINARY_DIR)
-add_custom_target(install
-  COMMAND make -C ${BINARY_DIR} install
-  DEPENDS gperftools)
+install(CODE "execute_process(COMMAND make -C ${BINARY_DIR} install)")
