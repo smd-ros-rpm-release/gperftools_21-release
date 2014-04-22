@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(gperftools)
+project(gperftools_21)
 
 find_package(catkin REQUIRED)
 
@@ -21,7 +21,6 @@ catkin_package(
   CFG_EXTRAS gperftools-extras.cmake
   )
 
-message("gperftools binary dir: ${BINARY_DIR}")
 install(CODE
   "execute_process(COMMAND make -C ${BINARY_DIR} install)"
   )

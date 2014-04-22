@@ -1,5 +1,5 @@
 <package>
-  <name>gperftools</name>
+  <name>gperftools_21</name>
   <version>:{version}</version>
   <description>Fast, multi-threaded malloc() and nifty performance analysis tools</description>
 
