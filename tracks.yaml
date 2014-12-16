@@ -25,12 +25,13 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc}
     devel_branch: null
+    last_version: 2.1.0
     name: upstream
     patches: indigo
-    release_inc: -1
+    release_inc: '0'
     release_repo_url: git@github.com:ros-gbp/gperftools_21-release.git
     release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://code.google.com/p/gperftools/
-    version: '2.1.0'
+    version: 2.1.0
