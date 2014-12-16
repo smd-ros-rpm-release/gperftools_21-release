@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <name>gperftools_21</name>
+  <version>:{version}</version>
+  <description>Fast, multi-threaded malloc() and nifty performance analysis tools</description>
+
+  <maintainer email="namniart@gmail.com">Austin Hendrix</maintainer>
+  <license>BSD-3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gperftools</build_depend>
+  <run_depend>gperftools</run_depend>
+</package>
