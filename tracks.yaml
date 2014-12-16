@@ -32,5 +32,5 @@ tracks:
     release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: null
+    vcs_uri: https://code.google.com/p/gperftools/
     version: '2.1.0'
