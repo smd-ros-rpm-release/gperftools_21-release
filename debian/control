@@ -1,0 +1,12 @@
+Source: ros-indigo-gperftools-21
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), google-perftools, libgoogle-perftools-dev, ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-gperftools-21
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, google-perftools, libgoogle-perftools-dev
+Description: Fast, multi-threaded malloc() and nifty performance analysis tools
