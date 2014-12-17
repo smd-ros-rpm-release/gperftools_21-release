@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>gperftools_21</name>
-  <version>:{version}</version>
+  <version>2.1.0</version>
   <description>Fast, multi-threaded malloc() and nifty performance analysis tools</description>
 
   <maintainer email="namniart@gmail.com">Austin Hendrix</maintainer>
