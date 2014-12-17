@@ -28,7 +28,7 @@ tracks:
     last_version: 2.1.0
     name: indigo
     patches: None
-    release_inc: '0'
+    release_inc: '1'
     release_repo_url: git@github.com:ros-gbp/gperftools_21-release.git
     release_tag: :{version}
     ros_distro: indigo
