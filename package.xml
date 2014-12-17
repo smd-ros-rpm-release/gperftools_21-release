@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <package>
   <name>gperftools_21</name>
   <version>2.1.0</version>
@@ -7,10 +8,6 @@
   <license>BSD-3</license>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>autoconf</build_depend>
-  <build_depend>automake</build_depend>
-  <build_depend>libunwind-dev</build_depend>
-
-  <run_depend>libunwind</run_depend>
-  <run_depend>catkin</run_depend>
+  <build_depend>gperftools</build_depend>
+  <run_depend>gperftools</run_depend>
 </package>
